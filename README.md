@@ -48,7 +48,7 @@ Bonus files:
 Other files:
 
 ```bash
-├── exmaple.txt                      # Example text
+├── example.txt                      # Example text
 └── README.md                        # Project documentation
 ```
 
