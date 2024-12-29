@@ -122,3 +122,23 @@ char	*get_next_line(int fd)
 	lst = ft_splitnode(lst, line);
 	return (ft_convert(head));
 }
+
+// int main(void)
+// {
+//     char   *line;
+//     int    fd;
+//     int    i;
+
+//     fd = open("example.txt", O_RDONLY);
+//     line = get_next_line(fd);
+//     i = 1;
+//     while (line != NULL)
+//     {
+//         printf("Line [%d] : %s", i, line);
+//         free(line);
+//         line = get_next_line(fd);
+//         i++;
+//     }
+//     close(fd);
+//     return 0;
+// }
